@@ -1,0 +1,247 @@
+/* General Styles */
+body {
+    font-family: "Manjari", serif;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+/* Nav Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1C1B1D;
+}
+
+nav p, nav a {
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: #0181E3;
+    padding: 8px;
+    border-radius: 5px;
+
+    transition: all 150ms linear;
+}
+
+nav a:hover {
+    background-color: #0669B2;
+}
+
+/* Footer Styles */
+footer {
+    height: 60px;
+    width: 100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+    color: white;
+    background-color: #1C1B1D;
+}
+
+footer a {
+    color:white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline 0.1em;
+}
+
+/* Splash Section */
+.splash {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.splash h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.splash img {
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.splash .address {
+    font-weight: bold;
+    text-align: center;
+}
+
+.splash .intro {
+    margin-top: 0;
+    max-width: 750px;
+    padding: 15px 15px;
+    
+    color: black;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+/* Horizontal Rules */
+hr {
+    border-top: 3px solid black;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 8px;
+}
+
+/* Sections */
+section {
+    padding: 25px 15%;
+    font-size: 17px;
+}
+
+/* Section Headings */
+section h2 {
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+/* Paragraph Styles */
+section p {}
+
+/* link styles */
+section a {
+    text-decoration: none;
+    color: #0181E3;
+}
+section a:hover {
+    text-decoration: underline 0.1em;
+    color: #0669B2;
+}
+
+.education{
+    font-family: "Manjari", serif;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 1rem 3rem;
+    
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.education img{
+    width: 60px;
+}
+
+/* List Styles */
+ul {
+    list-style: square;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: stretch;
+}
+
+dl dt{
+
+}
+
+dl dd{
+    text-align: right;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 3rem 2rem;
+
+    border: 3px solid black;
+    border-radius: 8px;
+    background-color: white;
+
+    transition: all 200ms linear;
+}
+
+.card img {
+    max-width: 100px;
+    max-height: 100px;
+    height: auto;
+    width: auto;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: black;
+}
+
+.card:hover {
+    transform: scale(1.035);
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 20%;
+    padding: 3rem 3rem;
+    gap: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+form {
+    font-family: "Manjari", serif;
+}
+
+form input, form textarea {
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+form input:focus, form textarea:focus {}
+
+form button {
+    color: white;
+    background-color: #0181E3;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    transition: all 150ms linear;
+}
+
+form button:hover {
+    background-color: #0669B2;
+}
